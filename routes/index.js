@@ -5,8 +5,8 @@
 var MongoClient = require('mongodb').MongoClient;
 
 exports.index = function(req, res){
-		var userName="arjun";
-	var password="arjunm";
+		var userName="arjunmantri";
+	var password="arjunmantri";
 	MongoClient.connect("mongodb://"+userName+":"+password+"@ds043200.mongolab.com:43200/arjun", function(err, db) {
 		  if(!err) {
 		    console.log("We are connected");
